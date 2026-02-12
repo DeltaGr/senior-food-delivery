@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import FoodShowcase from "@/components/FoodShowcase";
+import WeeklyMenu from "@/components/WeeklyMenu";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <FoodShowcase />
+      <WeeklyMenu />
     </main>
   );
 };
