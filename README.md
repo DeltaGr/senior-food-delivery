@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+I am using:
+
+![React](https://img.shields.io/badge/React-18-blue)
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![Node.js](https://img.shields.io/badge/Node.js-20-green)
+
+
 ## Getting Started
 
 First, run the development server:
