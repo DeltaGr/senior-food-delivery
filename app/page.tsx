@@ -8,7 +8,6 @@ import PrintableOrderForm from "@/components/PrintableOrderForm";
 export default function Home() {
   return (
     <main>
-      <Navigation />
       <HeroSection />
       <FoodShowcase />
       <WeeklyMenu />

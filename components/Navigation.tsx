@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navigation() {
   return (
     <nav className="w-full flex justify-between items-center py-4 px-6 bg-white shadow-sm">
@@ -6,10 +8,10 @@ export default function Navigation() {
       </div>
 
       <ul className="flex gap-6 text-lg text-green-800">
-        <li className="hover:text-green-600 cursor-pointer">Home</li>
-        <li className="hover:text-green-600 cursor-pointer">Menü</li>
-        <li className="hover:text-green-600 cursor-pointer">Begleitservice</li>
-        <li className="hover:text-green-600 cursor-pointer">Kontakt</li>
+        <li><Link href="/" className="hover:text-green-600 cursor-pointer">Home</Link></li>
+        <li><Link href="/menu" className="hover:text-green-600 cursor-pointer">Menu</Link></li>
+        <li><Link href="/" className="hover:text-green-600 cursor-pointer">Begleitservice</Link></li>
+        <li><Link href="/" className="hover:text-green-600 cursor-pointer">Kontakt</Link></li>
         </ul>
         </nav>
   );
