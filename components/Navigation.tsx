@@ -10,6 +10,7 @@ export default function Navigation() {
       <ul className="flex gap-6 text-lg text-green-800">
         <li><Link href="/" className="hover:text-green-600 cursor-pointer">Home</Link></li>
         <li><Link href="/menu" className="hover:text-green-600 cursor-pointer">Menu</Link></li>
+        <li><Link href="/weekly-planner" className="hover:text-green-600 cursor-pointer">Weekly Planner</Link></li>
         <li><Link href="/" className="hover:text-green-600 cursor-pointer">Begleitservice</Link></li>
         <li><Link href="/order-form" className="hover:text-green-600 cursor-pointer">Order Form</Link></li>
         <li><Link href="/" className="hover:text-green-600 cursor-pointer">Kontakt</Link></li>
