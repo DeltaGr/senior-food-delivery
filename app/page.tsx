@@ -4,6 +4,7 @@ import WeeklyMenu from "@/components/WeeklyMenu";
 import CompanionshipBooking from "@/components/CompanionshipBooking";
 import HowItWorks from "@/components/HowItWorks";
 
+
 export default function Home() {
   return (
     <main>
