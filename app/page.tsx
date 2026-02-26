@@ -5,7 +5,9 @@ import CompanionshipBooking from "@/components/CompanionshipBooking";
 import HowItWorks from "@/components/HowItWorks";
 import AboutAndBenefits from "@/components/AboutAndBenefits";
 import CompanionService from "@/components/CompanionService";
+import CompanionTeamPreview
 
+from "@/components/CompanionTeamPreview";
 export default function Home() {
   return (
     <main>
@@ -15,6 +17,7 @@ export default function Home() {
       <WeeklyMenu />
       <HowItWorks />
       <CompanionService />
+      <CompanionTeamPreview />
       <CompanionshipBooking />
     </main>
   );
